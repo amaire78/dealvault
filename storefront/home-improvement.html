@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Improvement Deals — Listings Showing 40%+ Off | DealVault</title>
+<meta name="description" content="Selected home-improvement listings showing discounts of 40% or more.">
+<link rel="canonical" href="https://www.dealvault.us/home-improvement.html">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "DealVault",
+      "item": "https://www.dealvault.us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Home Improvement Deals",
+      "item": "https://www.dealvault.us/home-improvement.html"
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg:#12151a; --panel:#1b1f26; --panel-line:#2a2f38; --gold:#c9a227; --gold-dim:#8a7020; --text:#eef0f2; --muted:#8b93a1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;line-height:1.5;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--panel-line);padding:20px 0;}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  .logo{font-family:'Fraunces',serif;font-weight:700;font-size:1.3rem;letter-spacing:.02em;display:flex;align-items:center;gap:10px;}
+  .logo img{width:30px;height:30px;border-radius:50%;display:block;}
+  nav{display:flex;flex-wrap:wrap;align-items:center;}
+  nav a{margin-left:22px;color:var(--muted);font-size:.9rem;}
+  nav a:hover{color:var(--text);}
+  nav a.alerts-link{color:var(--gold);font-weight:600;}
+  .hero{padding:70px 0 40px;text-align:center;}
+  .kicker{font-family:'Roboto Mono',monospace;font-size:.75rem;letter-spacing:.15em;color:var(--gold);text-transform:uppercase;}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2.4rem,6vw,4rem);margin:14px 0 18px;letter-spacing:-.01em;}
+  .hero p{color:var(--muted);font-size:1.1rem;max-width:520px;margin:0 auto;}
+  .catbar{border-top:1px solid var(--panel-line);border-bottom:1px solid var(--panel-line);background:var(--panel);padding:22px 0;}
+  .catbar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;}
+  .cats{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.88rem;color:var(--muted);}
+  .cats a:hover{color:var(--gold);}
+  .catbar .cta{display:inline-block;background:var(--gold);color:#14171c;font-weight:600;padding:11px 22px;border-radius:2px;font-size:.88rem;white-space:nowrap;}
+  .catbar .cta:hover{background:#dbb534;}
+  .section{padding:50px 0;border-top:1px solid var(--panel-line);}
+  .section h2{font-family:'Fraunces',serif;font-size:1.6rem;margin-bottom:6px;}
+  .section .sub{color:var(--muted);font-size:.9rem;margin-bottom:28px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;}
+  .card{background:var(--panel);border:1px solid var(--panel-line);overflow:hidden;display:flex;flex-direction:column;}
+  .card .photo{width:100%;aspect-ratio:4/3;background:#0d1014;border-bottom:1px solid var(--panel-line);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;}
+  .card .photo img{width:100%;height:100%;object-fit:contain;background:#fff;}
+  .card .photo .tag{position:absolute;top:10px;left:10px;font-size:.7rem;color:var(--text);background:rgba(0,0,0,.6);border:1px solid var(--panel-line);padding:2px 8px;text-transform:uppercase;letter-spacing:.05em;z-index:2;}
+  .card .body{padding:20px;flex:1;display:flex;flex-direction:column;}
+  .dial{font-family:'Roboto Mono',monospace;display:inline-block;align-self:flex-start;background:var(--gold);color:#14171c;font-weight:600;font-size:.8rem;padding:3px 9px;margin-bottom:14px;}
+  .card h3{font-size:1.05rem;margin-bottom:8px;font-weight:600;}
+  .price{font-size:.95rem;margin-bottom:10px;}
+  .price .was{color:var(--muted);text-decoration:line-through;margin-right:8px;}
+  .price .now{color:var(--gold);font-weight:600;}
+  .meta{font-size:.8rem;color:var(--muted);margin-bottom:16px;}
+  .card .get{font-size:.85rem;font-weight:600;color:var(--gold);border-bottom:1px solid var(--gold-dim);padding-bottom:2px;align-self:flex-start;margin-top:auto;}
+  .empty-card{grid-column:1/-1;text-align:center;padding:40px 20px;color:var(--muted);border:1px dashed var(--panel-line);}
+  .empty-card .sub2{font-size:.85rem;margin-top:6px;}
+  .stores{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;}
+  .store{background:var(--panel);border:1px solid var(--panel-line);padding:16px 18px;}
+  .store .tag{font-family:'Roboto Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;display:inline-block;margin-bottom:9px;}
+  .tag.live{background:var(--gold);color:#14171c;}
+  .tag.soon{background:transparent;border:1px solid var(--panel-line);color:var(--muted);}
+  .store h3{font-size:.98rem;font-weight:600;}
+  #alerts{background:var(--panel);}
+  .alert-box{max-width:620px;margin:0 auto;}
+  .alert-box .head{text-align:center;margin-bottom:26px;}
+  .picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-bottom:18px;}
+  .pick{display:flex;align-items:center;gap:10px;border:1px solid var(--panel-line);background:var(--bg);padding:12px 14px;cursor:pointer;font-size:.9rem;}
+  .pick:hover{border-color:var(--gold-dim);}
+  .pick input{accent-color:var(--gold);width:16px;height:16px;cursor:pointer;flex:none;}
+  .pick.all{grid-column:1/-1;background:#151920;font-weight:600;}
+  .soonlbl{font-family:'Roboto Mono',monospace;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1px solid var(--panel-line);padding:1px 5px;margin-left:auto;}
+  .field{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:10px;}
+  .field button{background:var(--gold);color:#14171c;border:none;font-weight:600;font-family:'Inter',sans-serif;padding:14px 26px;font-size:.95rem;cursor:pointer;width:100%;}
+  .field button:hover{background:#dbb534;}
+  .fineprint{font-size:.78rem;color:var(--muted);text-align:center;}
+  footer{border-top:1px solid var(--panel-line);padding:50px 0;text-align:center;color:var(--muted);font-size:.85rem;}
+  footer .wrap>*{margin-bottom:12px;}
+  footer a{margin:0 8px;}
+  footer .logo{justify-content:center;}
+  .social a{color:var(--gold);font-weight:500;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a href="index.html" style="text-decoration:none;"><div class="logo"><img src="favicon.svg" alt="DealVault">DealVault</div></a>
+    <nav>
+      <a href="index.html#stores">Stores</a>
+      <a class="alerts-link" href="index.html#alerts">Launch Status</a>
+      <a href="info.html">About</a><a href="https://blog.dealvault.us/">Guides</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">Selected listings showing 40%+ off</div>
+    <h1 style="font-size:clamp(2rem,5vw,3rem);">Home Improvement Deals</h1>
+    <p>Fixtures, hardware, cooling, and power.</p>
+  </div>
+</section>
+<div class="catbar">
+  <div class="wrap">
+    <div class="cats">
+      <a href="tools.html">Tools</a>
+      <a href="electronics.html">Electronics</a>
+      <a href="home-improvement.html">Home Improvement</a>
+      <a href="kitchen.html">Kitchen</a>
+      <a href="outdoor.html">Outdoor &amp; Camping</a>
+      <a href="other.html">Other</a>
+    </div>
+    <a class="cta" href="index.html#alerts">See Launch Status</a>
+  </div>
+</div>
+<section class="section">
+  <div class="wrap">
+<div class="grid">
+      <div class="card">
+        <div class="photo"><img src="https://i.ebayimg.com/images/g/8Z4AAeSwzDRqZ21d/s-l1600.jpg" alt="Shark Stratos Cordless Vacuum, Clean Sense IQ &amp; DuoClean PowerFins, Refurb" loading="lazy"><span class="tag">Home</span></div>
+        <div class="body">
+          <span class="dial">-70%</span>
+          <h3>Shark Stratos Cordless Vacuum, Clean Sense IQ &amp; DuoClean PowerFins, Refurb</h3>
+          <div class="price"><span class="was">$454.99</span><span class="now">$136.99</span></div>
+          <div class="meta">Product example — retailer link disabled before approval</div>
+          <span class="get" aria-label="Retailer link disabled before partner approval">Retailer link available after approval</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="photo"><img src="https://i.ebayimg.com/images/g/qBIAAeSwWkBqYkMO/s-l1600.jpg" alt="Dyson HP04 Pure Hot + Cool Purifier | Nickel | Refurbished" loading="lazy"><span class="tag">Home</span></div>
+        <div class="body">
+          <span class="dial">-54%</span>
+          <h3>Dyson HP04 Pure Hot + Cool Purifier | Nickel | Refurbished</h3>
+          <div class="price"><span class="was">$649.99</span><span class="now">$299.99</span></div>
+          <div class="meta">Product example — retailer link disabled before approval</div>
+          <span class="get" aria-label="Retailer link disabled before partner approval">Retailer link available after approval</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="photo"><img src="https://i.ebayimg.com/images/g/TzYAAeSwbLhqmpvT/s-l1600.jpg" alt="Dyson V15 Detect Total Clean Extra | Yellow/Nickel | Refurbished" loading="lazy"><span class="tag">Home</span></div>
+        <div class="body">
+          <span class="dial">-41%</span>
+          <h3>Dyson V15 Detect Total Clean Extra | Yellow/Nickel | Refurbished</h3>
+          <div class="price"><span class="was">$749.99</span><span class="now">$439.99</span></div>
+          <div class="meta">Product example — retailer link disabled before approval</div>
+          <span class="get" aria-label="Retailer link disabled before partner approval">Retailer link available after approval</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="logo"><img src="favicon.svg" alt="DealVault">DealVault</div>
+    <div class="social">
+      <a href="https://www.facebook.com/yourdealvault" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/mydealvault/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/mydealvault" target="_blank" rel="noopener">X</a>
+      <a href="https://www.youtube.com/@yourdealvault" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.tiktok.com/@mydealvault" target="_blank" rel="noopener">TikTok</a>
+    </div>
+    <div>
+      <a href="index.html#alerts">Launch Status</a>
+      <a href="info.html">About</a><a href="https://blog.dealvault.us/">Guides</a>
+      <a href="info.html#disclosure">Affiliate Disclosure</a>
+      <a href="info.html#privacy">Privacy</a>
+      <a href="mailto:dealvault.alerts@gmail.com">Contact</a>
+    </div>
+    <div>DealVault is preparing to reapply to the eBay Partner Network. Retailer product links and promotional automation are disabled before approval.</div>
+    <div>© 2026 DealVault. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
